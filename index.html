@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>emolument</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div>
+          <form action="#">
+            <div>
+              <label for="fullName">Fullname </label>
+              <br />
+              <input type="text" id="fullName" name="fullName" class="input1" />
+            </div>
+            <div>
+              <input type="text" id="hour" name="hour" placeholder="man hour"/>
+              <input type="text" placeholder="0-100%" id="tax" name="tax" />
+              <select name="degree" id="degree">
+                <option value="diploma">diploma</option>
+                <option value="highdiploma">highdiploma</option>
+                <option value="bachelor">bachelor</option>
+                <option value="master">master</option>
+                <option value="phd">phd</option>
+              </select>
+            </div>
+            <div>
+              <h1 class="answer">Youe emolument is : <span class="answer"></span></h1>
+            </div>
+          </form>
+          <div>
+            <button class="submit">compute</button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1>Hello, Friend!</h1>
+            <p>You can enter your information to see your emolument.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
